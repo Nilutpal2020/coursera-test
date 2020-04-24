@@ -1,0 +1,82 @@
+/* Base styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+section {
+    border: 2px solid black;
+    background-color: grey;
+    margin: 10px;
+}
+
+h2 {
+    margin: 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 2em;
+    position: relative;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.h2_a {
+    background-color: pink;
+}
+
+.h2_b {
+    background-color: darkred;
+    color: white;
+}
+
+.h2_c {
+    background-color: lightgoldenrodyellow;
+}
+
+p {
+    clear: both;
+    padding-left: 10px;
+}
+
+
+/* Responsive design */
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
