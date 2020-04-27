@@ -16,11 +16,6 @@ header {
     margin: 30px auto;
 }
 
-
-/* .row {
-    padding: 30px;
-} */
-
 .row {
     padding: 20px;
 }
@@ -31,10 +26,4 @@ header {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-}
-
-@media (min-width: 1200px) {
-    .row>div {
-        /* margin: 0 2vw; */
-    }
 }
