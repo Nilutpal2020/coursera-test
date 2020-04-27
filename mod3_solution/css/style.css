@@ -16,16 +16,24 @@ header {
     margin: 30px auto;
 }
 
-.row>div {
-    background-color: #ccc;
-    height: 1000px;
+.row {
+    padding: 30px;
+}
+
+.row {
     padding: 20px;
+}
+
+.row>div>div {
+    background-color: #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
     overflow: hidden;
-    margin: 0 10vw;
 }
 
 @media (min-width: 1200px) {
     .row>div {
-        margin: 0 2vw;
+        /* margin: 0 2vw; */
     }
 }
